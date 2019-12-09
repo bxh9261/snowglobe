@@ -72,6 +72,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\FadeScreen.cs" />
     <Compile Include="Assets\Scripts\ScreenTrigger.cs" />
+    <Compile Include="Assets\Scripts\SledPush.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Z:/IGMProfile/Documents/GitHub/snowglobe/3D_Animation_Final/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

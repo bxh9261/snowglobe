@@ -8,6 +8,10 @@ public class PathNode : MonoBehaviour
     public GameObject previousNode;
     public GameObject nextNode;
 
+    //field for path material
+    //[SerializeField]
+    //private Material pathMaterial;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,4 +23,16 @@ public class PathNode : MonoBehaviour
     {
         
     }
+
+    //private void onrenderobject()
+    //{
+    //    //set path material
+    //    pathmaterial.setpass(0);
+
+    //    //draw average flock vector
+    //    gl.begin(gl.lines);
+    //    gl.vertex(transform.position);
+    //    gl.vertex(nextnode.transform.position);
+    //    gl.end();
+    //}
 }
